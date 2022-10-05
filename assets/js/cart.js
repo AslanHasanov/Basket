@@ -49,7 +49,7 @@ for (let inp of inputs) {
         let id=inp.parentElement.parentElement.children[0].innerHTML
         basket.forEach(pr=>{
             if(id===pr.Id){
-                pr.count=inp.value
+                pr.Count=inp.value
 
 
                 let q=pr.Price
@@ -60,14 +60,14 @@ for (let inp of inputs) {
                 for(let i=0; i<q.length-4; i++){
                     w+=q[i]
                 }
-                total=parseInt(w)*pr.Count
+                total=parseInt(w) * pr.Count
             }
 
             
         })
 
         localStorage.setItem("basket",JSON.stringify(basket))
-        inp.parentElement.parentElement.children[5].innerHTML=total
+        inp.parentElement.parentElement.children[5].innerHTML=total +"AZN"
 
     })
     
