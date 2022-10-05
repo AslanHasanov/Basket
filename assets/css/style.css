@@ -1,0 +1,70 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background: linear-gradient(to right, #0f2027, #203a43);
+}
+
+body {
+  background: linear-gradient(to right, #203a43, #2c5364);
+}
+
+i {
+  font-size: 20px;
+  color: #fff;
+  position: relative;
+}
+i span {
+  position: absolute;
+  background-color: #fff;
+  color: green;
+  padding: 3px 5px;
+  border-radius: 100%;
+  top: -10px;
+  right: -14px;
+  font-size: 11px;
+}
+
+header a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+#Products img {
+  height: 400px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  transition: 0.7s;
+}
+
+.photo {
+  overflow: hidden;
+}
+
+.photo :hover {
+  transform: scale(1.1);
+}
+
+#toaster {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  opacity: 0;
+  transition: 0.5s;
+}
+
+table img {
+  width: 200px;
+  height: 100px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+tr {
+  color: #fff;
+}/*# sourceMappingURL=style.css.map */
